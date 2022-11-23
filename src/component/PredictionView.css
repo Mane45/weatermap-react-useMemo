@@ -1,0 +1,31 @@
+p {
+    margin: 0;
+    padding: 3px;
+}
+.container {
+    width: 90%;
+    padding: 10;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: auto;
+    background: #4444;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.weatherWrapper {
+    padding: 20px 0;
+    width: calc(100% / 4);
+    color: #ea6e4b;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    border: 1px solid #444;
+    border-radius: 10px;
+}
+.temp {
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  text-align: center;
+  color: #ea6e4b;
+}
+/* .btns {
+  width: auto;
+  border: 1px solid #ea6e4b;
+  padding: 20px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+} */
